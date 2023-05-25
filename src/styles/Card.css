@@ -1,11 +1,21 @@
 .card-container {
   position: relative;
-  background: linear-gradient(to bottom, #FF6060 0%, #c95f5f 60%, #854d4d 100%);
   width: 335px;
   height: 225px;
   border-radius: 10px;
+  background: linear-gradient(red, black);
   z-index: 1;
 }
+
+.card-img {
+  position: relative;
+  width: 335px;
+  height: 225px;
+  object-fit: cover;
+  border-radius: 10px;
+  z-index: -1;
+}
+
 
 
 .card-title {
