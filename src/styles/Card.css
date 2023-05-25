@@ -1,0 +1,17 @@
+.card-container {
+  position: relative;
+  background: linear-gradient(to bottom, #FF6060 0%, #c95f5f 60%, #854d4d 100%);
+  width: 335px;
+  height: 225px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+
+.card-title {
+  position: absolute;
+  font-size: 18px;
+  color: #fff;
+  left: 20px;
+  bottom: 20px;
+}
