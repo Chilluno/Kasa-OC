@@ -1,0 +1,15 @@
+.tags-container{
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+}
+
+.tag{
+   background-color: #FF6060;
+   width: 84px;
+   height: 18px;
+   font-size: 10px;
+   border-radius: 5px;
+   text-align: center;
+   color: white;
+}
