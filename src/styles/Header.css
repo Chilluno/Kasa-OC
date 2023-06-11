@@ -3,7 +3,7 @@ display: flex;
 justify-content: space-between;
 width: auto;
 align-items: center;
-margin-bottom: 20px;
+margin: 20px 0px 20px 20px;
 }
 
 .kasa-logo {

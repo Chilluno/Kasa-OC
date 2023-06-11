@@ -1,0 +1,20 @@
+.footer-container{
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 209px;
+   width: auto;
+   gap: 40px;
+   margin-top: 20px;
+}
+.footer-logo{
+width: 122px;
+height: 40px;
+}
+
+.footer-rights{
+   color:white;
+   size: 12px;
+}
