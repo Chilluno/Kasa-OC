@@ -1,0 +1,24 @@
+.error-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 11px;
+   margin-top: 200px;
+}
+
+.error-heading{
+font-size: 96px;
+color: #FF6060;;
+}
+
+.error-msg{
+font-size: 18px;
+text-align: center;
+color: #FF6060;;
+}
+
+.error-link{
+   text-decoration: underline;
+   margin-top: 196px;
+}
