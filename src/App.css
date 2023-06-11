@@ -8,7 +8,7 @@
 body{
   width: 375px;
   height: auto;
-  margin: 20px;
+
 }
 
 a{
@@ -16,3 +16,6 @@ a{
   color: #FF6060;
 }
 
+main{
+  margin-left: 20px;
+}

@@ -5,6 +5,7 @@ import { Homepage } from './pages/homepage/Homepage'
 import { About } from './pages/about/About'
 import { PageNotFound } from "./pages/error/PageNotFound"
 import { Details } from "./pages/details/Details"
+import { Footer } from "./components/Footer"
 
 
 
@@ -20,7 +21,7 @@ function App() {
       <Route path="*" element={<PageNotFound />} />
       <Route path="/home/:homeId" element={<Details />} />
       </Routes>
-   
+      <Footer/>
     </div>
     
   )
