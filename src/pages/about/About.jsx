@@ -7,13 +7,13 @@ import aboutBanner from "../../assets/banner-about.png"
 
 
 export const About = () => {
-   return <><Banner page="about" banner={aboutBanner}/>
+   return <main><Banner page="about" banner={aboutBanner}/>
    <div className="about-container">
       {
        abouts.map((about, index) => (
-         <Accordion key={index} info={about}/>
+         <Accordion key={index} title={about.title} description={about.description}/>
        ))
       }
    </div>
-   </>
+   </main>
 }
