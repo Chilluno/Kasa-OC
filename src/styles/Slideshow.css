@@ -1,0 +1,35 @@
+.slideshow-container{
+   position: relative;
+   width: 335px;
+}
+
+.slideshow-image{
+   width: 335px;
+   height: 225px;
+   border-radius: 10px;
+   object-fit:cover;
+}
+
+.slideshow-arrow{
+   width:10px;
+   height:20px;
+   cursor: pointer;
+}
+
+.slideshow-arrow-left{
+   width:10px;
+   height:20px;
+   position: absolute;
+   left:5px;
+   bottom: 50%;
+   
+}
+
+.slideshow-arrow-right{
+   width:10px;
+   height:20px;
+   position: absolute;
+   bottom: 50%;
+   right:5px;
+   
+}
