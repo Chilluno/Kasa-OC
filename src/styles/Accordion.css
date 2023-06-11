@@ -1,0 +1,25 @@
+.accordion-container{
+   width: 335px;
+}
+
+.accordion-title{
+   display: flex;
+   justify-content: space-between;
+   color: white;
+   font-size: 13px;
+   background-color: #FF6060;
+   border-radius: 5px;
+}
+
+.accordion-content{
+   background-color:#F6F6F6;
+   border-radius: 0px 0px 5px 5px;
+   color:#FF6060;
+   font-size: 12px;
+   padding-top: 17px;
+   padding-left: 10px;
+}
+
+.accordion-description{
+   display: flex;
+}
