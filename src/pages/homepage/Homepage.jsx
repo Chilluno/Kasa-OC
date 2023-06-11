@@ -1,11 +1,12 @@
 import React from "react"
-import { Banner } from "./components/Banner"
-import { Logements } from "./components/Logements"
+import homeBanner from "../../assets/banner-home.png"
+import { Housing } from "./components/Housing"
+import { Banner } from "../../components/Banner"
 
 
 export const Homepage = () => {
-   return <>
-   <Banner />
-   <Logements />
-   </>
+   return <main>
+   <Banner page="home" content="Chez vous, partout et ailleurs" banner={homeBanner}/>
+   <Housing />
+   </main>
 }
