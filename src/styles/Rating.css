@@ -9,3 +9,11 @@ width:13px;
 height:14px;
 }
 
+@media screen and (min-width: 376px){
+
+   .star{
+      width: 24px;
+      height: 24px;
+      padding-right: 10px;
+   }
+}

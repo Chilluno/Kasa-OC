@@ -3,7 +3,6 @@
   width: 335px;
   height: 225px;
   border-radius: 10px;
-  background: linear-gradient(red, black);
   z-index: 1;
 }
 
@@ -16,12 +15,21 @@
   z-index: -1;
 }
 
-
-
 .card-title {
   position: absolute;
   font-size: 18px;
   color: #fff;
   left: 20px;
   bottom: 20px;
+}
+
+@media screen and (min-width: 376px){
+  .card-container{
+    width: 340px;
+    height: 340px;
+  }
+  .card-img{
+    width: 340px;
+    height: 340px;
+  }
 }

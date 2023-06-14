@@ -19,6 +19,7 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 font-size: 12px;
+text-transform: uppercase;
 }
 
 .nav-active{
@@ -35,5 +36,19 @@ position: relative;
    background: #FF6060;
 }
 
-
+@media screen and (min-width: 376px){
+   .header{
+      margin: 40px 0px 63px 100px;
+   }
+   .kasa-logo {
+      width: 210px;
+      height: 68px;
+   }
+   ul{
+      font-size: 24px;
+      margin-right: 100px;
+      text-transform: none;
+      gap: 50px;
+   }
+}
 

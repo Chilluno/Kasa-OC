@@ -5,6 +5,7 @@
    align-items: center;
    gap: 11px;
    margin-top: 200px;
+   margin-bottom: 200px;
 }
 
 .error-heading{
@@ -21,4 +22,17 @@ color: #FF6060;;
 .error-link{
    text-decoration: underline;
    margin-top: 196px;
+   font-size: 14px;
+}
+
+@media screen and (min-width: 376px){
+   .error-heading{
+      font-size: 288px;
+   }
+   .error-msg{
+      font-size: 36px;
+   }
+   .error-link{
+      font-size: 18px;
+   }
 }

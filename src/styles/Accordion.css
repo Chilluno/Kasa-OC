@@ -7,9 +7,23 @@
    justify-content: space-between;
    color: white;
    font-size: 13px;
+   padding-left: 11px;
+   padding-right: 9px;
    background-color: #FF6060;
    border-radius: 5px;
 }
+
+.accordion-title > button{
+ background: url(../assets/dropdown_arrow.png);
+ background-size: 100%;
+background-repeat: no-repeat;
+ width: 16px;
+ height: 10px;
+ border: none;
+ margin: 6px 0px 6px 6px;
+}
+
+
 
 .accordion-content{
    background-color:#F6F6F6;
@@ -22,4 +36,26 @@
 
 .accordion-description{
    display: flex;
+}
+
+@media screen and (min-width: 376px){
+   .accordion-container{
+      width: 70%;
+      
+   }
+   .accordion-title{
+      padding-left: 11px;
+      font-size: 18px;
+      height: 52px;
+      align-items: center;
+   }
+   .accordion-title > button{
+      width: 24px;
+      height: 14px;
+      margin: 10px 0px 6px 6px;
+   }
+   .accordion-content{
+      font-size: 24px;
+      padding: 30px 10px 20px 20px;
+   }
 }

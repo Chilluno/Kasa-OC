@@ -8,8 +8,8 @@ export const Header = () => {
       <img src={logo} alt="Kasa" className="kasa-logo"/>
    <nav>
    <ul>
-      <li><NavLink to="/" className={(link) => (link.isActive ? "nav-active" : "")} >ACCUEIL</NavLink></li>
-      <li><NavLink to="/about" className={(link) => (link.isActive ? "nav-active" : "")}>A PROPOS</NavLink></li>
+      <li><NavLink to="/" className={(link) => (link.isActive ? "nav-active" : "")} >Accueil</NavLink></li>
+      <li><NavLink to="/about" className={(link) => (link.isActive ? "nav-active" : "")}>A propos</NavLink></li>
    </ul> 
    </nav>
    </div>

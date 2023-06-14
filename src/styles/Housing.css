@@ -3,3 +3,15 @@
    gap: 20px;
    flex-direction: column;
 }
+
+@media screen and (min-width: 376px){
+   .housing-container{
+      background-color: #F6F6F6;
+      padding: 50px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      border-radius: 25px;
+      gap: 60px;
+   }
+}

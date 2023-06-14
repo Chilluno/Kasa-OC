@@ -5,7 +5,7 @@ export const Accordion = ({title, description}) => {
  const [display, setDisplay] = useState(false);
 
    return <div className="accordion-container">
-      <div className="accordion-title"><h3>{title}</h3><button onClick={() => setDisplay(!display)}>Click</button></div>
+      <div className="accordion-title"><h3>{title}</h3><button onClick={() => setDisplay(!display)}></button></div>
       {  display ?
          <div className="accordion-content">
       { 

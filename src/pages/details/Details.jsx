@@ -15,6 +15,7 @@ export const Details = () => {
    
    const currentHome = homeDetails.find(detail => detail.id === homeId)
 
+
 if(currentHome == undefined){
       useEffect(() => {
          navigate("*");

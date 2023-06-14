@@ -28,6 +28,7 @@ if(isSingleImage === false){
    <img className="slideshow-image" src={slides[currentIndex]}/>
    <div className="slideshow-arrow-left" onClick={prevSlide}><img className="slideshow-arrow" src={arrowL}/></div>
    <div className="slideshow-arrow-right" onClick={nextSlide}><img className="slideshow-arrow" src={arrowR}/></div>
+   <div className={`${window.innerWidth > 375 ? "slideshow-index" : "index-hidden"}`}>{currentIndex + 1}/{slides.length}</div>
    </div>
    }
 

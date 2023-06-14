@@ -51,5 +51,38 @@ height: 32px;
    display: flex;
    flex-direction: column;
    gap: 20px;
+   margin-bottom: 100px;
 }
 
+@media screen and (min-width: 376px){
+   .details-title-container{
+      flex-direction: row;
+      justify-content: space-between;
+   }
+   .details-title > h1{
+      font-size: 36px;
+   }
+   .details-title > p{
+      font-size: 18px;
+   }
+   .details-host{
+      flex-direction: column;
+      gap: 30px;
+   }
+   .details-host-image {
+      width:64px;
+      height: 64px;
+   }
+   .host-container{
+      margin-left: 10px;
+      gap: 20px;
+   }
+   .host-container > p{
+      font-size: 18px;
+      width: 80px;
+   }
+
+   .details-dropdown-container{
+      flex-direction: row;
+   }
+}
