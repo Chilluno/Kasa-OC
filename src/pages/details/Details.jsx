@@ -35,7 +35,7 @@ if(currentHome != undefined){
          <div className="details-host">
             <div className="host-container">
             <p>{currentHome.host.name}</p>
-            <img className="details-host-image" src={currentHome.host.picture} />
+            <img className="details-host-image" src={currentHome.host.picture} alt={currentHome.host.name} />
             </div>
             <Rating rate={currentHome.rating}/>
          </div>

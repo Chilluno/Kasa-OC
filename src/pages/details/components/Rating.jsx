@@ -12,7 +12,7 @@ const currentRating = props.rate;
    return (<div className="star-rating">{
       [...Array(5)].map((star, index) => {
          return (
-            <img key={index} className="star" src={index < currentRating ?  starOn : starOff} />
+            <img key={index} className="star" src={index < currentRating ?  starOn : starOff} alt="star"/>
          )
       })
    }
