@@ -3,10 +3,11 @@ import {useEffect} from "react"
 import { useParams, useNavigate } from "react-router-dom"
 import "../../styles/Details.css"
 import homeDetails from "../../../logements.json"
-import { Accordion } from "../../components/Accordion";
-import { Slideshow } from "./components/Slideshow";
-import { Tag } from "./components/Tag";
-import { Rating } from "./components/Rating";
+import { Slideshow } from "../../components/Slideshow"
+import { Tag } from "../../components/Tag"
+import { Rating } from "../../components/Rating"
+import {Accordion} from "../../components/Accordion"
+
 
 export const Details = () => {
    const {homeId} = useParams();
@@ -25,7 +26,7 @@ if(currentHome == undefined){
 if(currentHome != undefined){
    return <main>
 
-      <Slideshow slides={currentHome.pictures}/>
+      <Slideshow slides={currentHome.pictures} />
       <div className="details-title-container">
          <div className="details-title">
          <h1>{currentHome.title}</h1> 

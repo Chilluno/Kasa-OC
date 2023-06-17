@@ -1,8 +1,8 @@
 import React from "react"
 import { useState } from "react"
-import arrowL from "../../../assets/arrow-left.png"
-import arrowR from "../../../assets/arrow-right.png"
-import "../../../styles/Slideshow.css"
+import arrowL from "../assets/arrow-left.png"
+import arrowR from "../assets/arrow-right.png"
+import "../styles/Slideshow.css"
 
 
 export const Slideshow = ({slides}) => {

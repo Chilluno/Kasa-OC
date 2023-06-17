@@ -1,6 +1,6 @@
 import React from "react"
-import logements from "../../../../logements.json"
-import "../../../styles/Housing.css"
+import logements from "../../logements.json"
+import "../styles/Housing.css"
 import {Card} from "./Card.jsx"
 
 

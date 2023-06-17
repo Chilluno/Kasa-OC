@@ -1,7 +1,7 @@
 import React from "react"
 import homeBanner from "../../assets/banner-home.png"
-import { Housing } from "./components/Housing"
 import { Banner } from "../../components/Banner"
+import { Housing } from "../../components/Housing"
 
 
 export const Homepage = () => {
